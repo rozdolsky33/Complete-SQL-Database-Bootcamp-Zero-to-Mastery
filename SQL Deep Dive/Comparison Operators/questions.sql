@@ -2,6 +2,7 @@
 /*
 * Write your query here
 */
+Select count( * ) from customers where gender = 'F' AND state = 'OR';
 
 -- Who over the age of 44 has an income of 100 000 or more? (excluding 44)
 /*
